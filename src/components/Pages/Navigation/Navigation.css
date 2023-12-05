@@ -1,0 +1,119 @@
+.navbar-container {
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .top-container {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #D4E57B;
+  }
+  
+  .top-container h1 {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  
+  .navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: -100px;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .get-started button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .logo-container img {
+    width: 240px;
+    filter: invert(100);
+    height: auto;
+  }
+  
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: flex-end;
+  }
+  
+  .menu-icon span {
+    height: 3px;
+    width: 25px;
+    background-color: black;
+    margin: 3px 0;
+    transition: 0.4s;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-main {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 50%;
+      text-align: right;
+      background-color: #fff;
+      position: absolute;
+      top: 25%;
+      padding: 10px;
+      z-index: 1;
+      border-radius: 20px;
+      transform: translateX(90%);
+      margin: 0 auto;
+    }
+  
+    .nav-links.active {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .logo-container img {
+      width: 150px;
+      margin-top: 20px;
+    }
+  
+    .menu-icon {
+      display: flex;
+      margin-left: auto;
+      margin-top: -6%;
+    }
+  
+    .nav-links li {
+      margin: 5px 30px;
+    }
+  
+    .get-started button {
+      display: none;
+    }
+  }

@@ -1,0 +1,90 @@
+.hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .hero-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/src/components/images/Header\ BG.png') top right/cover no-repeat;
+    z-index: -1;
+    background-size: 65%;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+    background-color: #161A20;
+    padding: 5vw;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #7A7E86;
+    padding-bottom: 10px;
+  }
+  
+  .hero-content button {
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 8px;
+  }
+  
+  .hero-content button.get-started-button {
+    background-color: #D6E47B;
+    color: #161A20;
+    border: none;
+  }
+  
+  .hero-content button.Learnmore {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #7A7E86;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-background {
+      display: none;
+    }
+  
+    .hero-content {
+      width: 100%;
+      padding: 5vw;
+      text-align: center;
+    }
+  
+    .hero-content h1 {
+      font-size: 40px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .hero-content {
+      left: 38%;
+      top: 45%; 
+    }
+  }
+  

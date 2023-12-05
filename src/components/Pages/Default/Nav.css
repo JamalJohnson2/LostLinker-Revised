@@ -1,0 +1,94 @@
+/*body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+  margin: 1% 5%;
+  z-index: 100;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  max-width: 170px;
+  filter: invert(100%);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  margin: 0 15px;
+}
+
+.submit-button {
+  flex: 1;
+  text-align: right;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.hamburger-menu-links {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0; 
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+  
+  .nav-links.mobile-menu {
+    display: flex;
+  }
+  
+  .nav-links a {
+    margin: 2% 0;
+    font-weight: 300;
+    color: white;
+    text-align: right;
+    justify-content: right;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+
+  .submit-button {
+    display: none;
+  }
+}*/
